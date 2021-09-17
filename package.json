@@ -17,5 +17,8 @@
     "study"
   ],
   "author": "Adeir do Bom Fim Junior",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
 }
