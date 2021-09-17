@@ -1,0 +1,21 @@
+{
+  "name": "simples-calculator",
+  "version": "1.0.0",
+  "description": "A simple calcutor with vanilla javascript",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "simples-calculator"
+  },
+  "keywords": [
+    "calculator",
+    "javascript",
+    "math",
+    "study"
+  ],
+  "author": "Adeir do Bom Fim Junior",
+  "license": "MIT"
+}
