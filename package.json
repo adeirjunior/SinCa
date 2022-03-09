@@ -4,7 +4,7 @@
   "description": "A simple calcutor with vanilla javascript",
   "main": "js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch style/main.scss style/main.css"
   },
   "repository": {
     "type": "git",
