@@ -1,14 +1,18 @@
 {
-  "name": "simples-calculator",
+  "name": "simple-calculator",
   "version": "1.0.0",
+  "private": "true",
   "description": "A simple calcutor with vanilla javascript",
-  "main": "js/main.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch style/main.scss style/main.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
-    "url": "simples-calculator"
+    "url": "https://github.com/adeirjunior/SinCa"
   },
   "keywords": [
     "calculator",
@@ -19,6 +23,10 @@
   "author": "Adeir do Bom Fim Junior",
   "license": "MIT",
   "dependencies": {
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
   }
 }

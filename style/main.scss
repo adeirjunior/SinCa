@@ -4,7 +4,7 @@ $colors: (
   textC: #539C71,
 );
 a{
-    cursor: pointer;
+    cursor: default;
   }
 @function color($colorName){
     @return map-get($colors,$colorName)
