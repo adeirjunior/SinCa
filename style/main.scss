@@ -4,7 +4,7 @@ $colors: (
   textC: #539C71,
 );
 a{
-    cursor: default;
+    cursor: pointer;
   }
 @function color($colorName){
     @return map-get($colors,$colorName)
@@ -90,6 +90,7 @@ body{
         button{
             cursor: pointer;
             font-size: 2rem;
+            height: 60px;
             outline: none;
             border: none;
             color: color(textC);

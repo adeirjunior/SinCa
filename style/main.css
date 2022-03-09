@@ -1,5 +1,5 @@
 a {
-  cursor: default;
+  cursor: pointer;
 }
 
 *, *::before, *::after {
@@ -72,6 +72,7 @@ body .calculator-grid .span-two {
 body .calculator-grid button {
   cursor: pointer;
   font-size: 2rem;
+  height: 60px;
   outline: none;
   border: none;
   color: #539C71;
